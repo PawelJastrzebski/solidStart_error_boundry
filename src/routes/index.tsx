@@ -6,8 +6,8 @@ import { PageLayout, PageLayoutWorks } from "~/components/PageLayout";
 export default function Home() {
   return (
     <main>
-      <Title>Test Nested Error Boundry</Title>
-      <h1>Test Nested Error Boundry</h1>
+      <Title>Test Nested Error Boundary</Title>
+      <h1>Test Nested Error Boundary</h1>
 
       {/* OK */}
       <PageLayoutWorks children={() => <CounterThrow />} >
