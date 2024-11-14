@@ -17,14 +17,24 @@ export default function Home() {
       <PageLayoutWorks children={() => <CounterThrowOnMount />} >
       </PageLayoutWorks>
 
+      {/* OK */}
+      <PageLayoutWorks>
+        {() => <CounterThrow />}
+      </PageLayoutWorks>
+
+      {/* OK */}
+      <PageLayoutWorks>
+        {() => <CounterThrowOnMount />}
+      </PageLayoutWorks>
+
       {/* Not working */}
       <PageLayout >
-        <CounterThrow />
+        {/* <CounterThrow /> */}
       </PageLayout>
 
       {/* Not working */}
       <PageLayout >
-        <CounterThrowOnMount />
+        {/* <CounterThrowOnMount /> */}
       </PageLayout>
 
       {/* Ok */}
