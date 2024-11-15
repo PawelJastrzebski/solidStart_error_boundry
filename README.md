@@ -1,4 +1,4 @@
-# SolidStart - Test Nested Error Boundary
+# SolidStart - Nested Error Boundary ([SOLVED](https://github.com/solidjs/solid-start/issues/1677))
 
 ErrorBoundary not working in nested layouts (using children)
 ```jsx
@@ -54,3 +54,6 @@ export function PageLayoutWorks({ children }: { children: () => JSXElement }) {
     )
 }
 ```
+
+# Solution 🎉
+Avoid props destructuralization. [SolidDocs](https://docs.solidjs.com/concepts/components/props#destructuring-props)

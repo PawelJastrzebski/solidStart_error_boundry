@@ -29,12 +29,12 @@ export default function Home() {
 
       {/* Not working */}
       <PageLayout >
-        {/* <CounterThrow /> */}
+        <CounterThrow />
       </PageLayout>
 
       {/* Not working */}
       <PageLayout >
-        {/* <CounterThrowOnMount /> */}
+        <CounterThrowOnMount />
       </PageLayout>
 
       {/* Ok */}

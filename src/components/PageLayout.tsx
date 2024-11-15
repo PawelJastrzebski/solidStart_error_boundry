@@ -1,10 +1,10 @@
 import { ErrorBoundary, JSXElement } from "solid-js";
 
-export function PageLayout({ children }: { children?: JSXElement }) {
+export function PageLayout(props: { children?: JSXElement }) {
 
     return (
         <ErrorBoundary fallback={<div>Error PageLayout</div>} >
-            {children}
+            {props.children}
         </ErrorBoundary>
     )
 }
